@@ -1,0 +1,20 @@
+Data/
+Models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+
+# 忽略 Python 缓存和环境
+__pycache__/
+*.pyc
+.env
+venv/
+.ipynb_checkpoints/
+
+# 忽略 pycharm 文件
+.idea/
+.idea
+__pycache__
