@@ -1,0 +1,14 @@
+timestamp: 2025-12-23T08:20:22
+do_stemming: False
+stemmer_type: porter
+regex_non_alnum: [^A-Za-z0-9\s]
+text_col: Title
+label_col: Tags
+id_col: Id
+output_dir: /workspace/user/Coding/jialin/StackoverflowClassification/Results/preprocess_20251223_082022
+train_rows: 24000
+train_output: /workspace/user/Coding/jialin/StackoverflowClassification/Results/preprocess_20251223_082022/train_preprocessed.csv
+test_rows: 6000
+test_output: /workspace/user/Coding/jialin/StackoverflowClassification/Results/preprocess_20251223_082022/test_preprocessed.csv
+stemmed_all_rows: 30000
+stemmed_all_output: /workspace/user/Coding/jialin/StackoverflowClassification/Results/preprocess_20251223_082022/stemmed_all_preprocessed.csv

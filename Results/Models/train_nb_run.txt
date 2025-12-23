@@ -1,0 +1,8 @@
+timestamp: 2025-12-23T08:34:19
+feature_source: cache
+train_samples: 24000
+num_features: 14245
+classes_: [0, 1]
+nb_params: {'alpha': 1.0, 'fit_prior': True, 'class_prior': None}
+model_path: /workspace/user/Coding/jialin/StackoverflowClassification/Results/Models/nb_model.joblib
+label_map_path: /workspace/user/Coding/jialin/StackoverflowClassification/Results/Models/label_map.json

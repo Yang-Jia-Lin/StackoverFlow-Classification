@@ -6,7 +6,7 @@ from pathlib import Path
 # ============================
 # 1) 项目根目录与路径
 # ============================
-ROOT_DIR = Path(r"D://Coding/Python/StackOverflowClassifications")
+ROOT_DIR = Path(r"/workspace/user/Coding/jialin/StackoverflowClassification")
 
 DATA_DIR = ROOT_DIR / "Data"
 RAW_DIR = DATA_DIR / "Raw"
@@ -49,7 +49,7 @@ CONFUSION_MATRIX_PNG = FIGURES_DIR / "confusion_matrix.png"
 # 4) 数据字段与标签映射
 # ============================
 ID_COL = "Id"
-TEXT_COL = "Title_Stemmed"
+TEXT_COL = "Title"
 LABEL_COL = "Tags"
 
 # 二分类标签
