@@ -1,6 +1,5 @@
 # Scripts/01_preprocess.py
 from __future__ import annotations
-
 from pathlib import Path
 
 import config

@@ -1,25 +1,25 @@
 {
-  "accuracy": 0.908,
-  "precision": 0.6726786907147628,
+  "accuracy": 0.9133333333333333,
+  "precision": 0.6873720136518772,
   "recall": 0.9420018709073901,
-  "f1": 0.7848791893998441,
+  "f1": 0.7947908445146015,
   "average": "binary",
   "pos_label": 1,
   "cm_normalize": null,
   "confusion_matrix": [
     [
-      4441,
-      490
+      4473,
+      458
     ],
     [
       62,
       1007
     ]
   ],
-  "timestamp": "2025-12-23T08:38:22",
+  "timestamp": "2025-12-23T20:27:09",
   "feature_source": "cache",
   "test_samples": 6000,
-  "num_features": 14245,
+  "num_features": 10779,
   "model_path": "/workspace/user/Coding/jialin/StackoverflowClassification/Results/Models/nb_model.joblib",
   "vectorizer_path": "/workspace/user/Coding/jialin/StackoverflowClassification/Results/Models/vectorizer.joblib"
 }

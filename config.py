@@ -25,12 +25,12 @@ SRC_DIR = ROOT_DIR / "Src"
 # 2) 数据文件名（Raw/Processed）
 # ============================
 RAW_STEMMED_FILE = RAW_DIR / "StemmedData_30000.csv"
-RAW_TRAIN_FILE = RAW_DIR / "train_24000.csv"
-RAW_TEST_FILE = RAW_DIR / "test_6000.csv"
+RAW_TRAIN_FILE = RAW_DIR / "train2_stemmed.CSV"
+RAW_TEST_FILE = RAW_DIR / "test2_stemmed.CSV"
 
 PROCESSED_STEMMED_FILE = PROCESSED_DIR / "StemmedData_30000_clean.csv"
-PROCESSED_TRAIN_FILE = PROCESSED_DIR / "train_24000_clean.csv"
-PROCESSED_TEST_FILE = PROCESSED_DIR / "test_6000_clean.csv"
+PROCESSED_TRAIN_FILE = PROCESSED_DIR / "train2_clean.csv"
+PROCESSED_TEST_FILE = PROCESSED_DIR / "test2_clean.csv"
 
 
 # ============================

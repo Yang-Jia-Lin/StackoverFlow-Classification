@@ -1,0 +1,46 @@
+{
+  "accuracy": 0.9281666666666667,
+  "precision": 0.9237875288683602,
+  "recall": 0.9333333333333333,
+  "f1": 0.9285358978610513,
+  "average": "binary",
+  "pos_label": 1,
+  "cm_normalize": null,
+  "confusion_matrix": [
+    [
+      2769,
+      231
+    ],
+    [
+      200,
+      2800
+    ]
+  ],
+  "fold": 5,
+  "train_file": "/workspace/user/Coding/jialin/StackoverflowClassification/Data/Processed/five_fold/fold_5/fold_5_train.csv",
+  "val_file": "/workspace/user/Coding/jialin/StackoverflowClassification/Data/Processed/five_fold/fold_5/fold_5_val.csv",
+  "train_samples": 24000,
+  "val_samples": 6000,
+  "num_features": 11300,
+  "roc_auc": 0.978491,
+  "nb_params": {
+    "alpha": 1.0,
+    "fit_prior": true,
+    "class_prior": null
+  },
+  "vectorizer_params": {
+    "lowercase": false,
+    "analyzer": "word",
+    "ngram_range": [
+      1,
+      1
+    ],
+    "token_pattern": "(?u)\\b\\w+\\b",
+    "strip_accents": null,
+    "stop_words": null,
+    "min_df": 1,
+    "max_df": 1.0,
+    "max_features": null,
+    "binary": false
+  }
+}

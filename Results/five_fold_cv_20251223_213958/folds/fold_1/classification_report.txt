@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+      python     0.9372    0.9110    0.9239      3000
+        html     0.9134    0.9390    0.9260      3000
+
+    accuracy                         0.9250      6000
+   macro avg     0.9253    0.9250    0.9250      6000
+weighted avg     0.9253    0.9250    0.9250      6000

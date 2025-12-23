@@ -1,6 +1,5 @@
 # Scripts/04_test_nb.py
 from __future__ import annotations
-
 from datetime import datetime
 from pathlib import Path
 from typing import Tuple

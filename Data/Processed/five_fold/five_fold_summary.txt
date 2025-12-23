@@ -1,0 +1,5 @@
+fold_1: train=24000 {'html': 12000, 'python': 12000} | val=6000 {'html': 3000, 'python': 3000}
+fold_2: train=24000 {'html': 12000, 'python': 12000} | val=6000 {'html': 3000, 'python': 3000}
+fold_3: train=24000 {'html': 12000, 'python': 12000} | val=6000 {'html': 3000, 'python': 3000}
+fold_4: train=24000 {'html': 12000, 'python': 12000} | val=6000 {'html': 3000, 'python': 3000}
+fold_5: train=24000 {'html': 12000, 'python': 12000} | val=6000 {'html': 3000, 'python': 3000}
